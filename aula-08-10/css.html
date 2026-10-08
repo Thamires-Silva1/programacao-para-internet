@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* REGRA CSS */
+        p{ border: 3px dotted red;}
+        *{
+            border:1px solid black;
+        }
+        p{
+            font-size: 12pt ;
+            color:rgba(81, 100, 207,0.5);
+            background-color: #b8c2fa;
+        }
+        h1{
+            font-size: 4em;
+            color:rgb(35, 52, 145);
+        }
+        #itemID{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .item {
+            background-color: #004faa6e ;
+        }
+        div span{
+            font-style: oblique;
+        }
+        div>mark {
+            background-color: gray;
+        }
+        li:hover { 
+            color: coral;
+        }
+        p:first-child {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <p style="color: blueviolet">CSS é uma linguagem declarativa auxiliar a documentos HTML para estilização de definição de comportamento. O CSS pode ser declarado de três formas distintas.</p>
+    <ol>
+        <li class="item">Na tag style, definida no cabeçário do HTML;</li>
+        <li class="item">Em um documento externo por meio da tag link;</li>
+        <li class="item">Inline no próprio elemento HTML.</li>
+    </ol>
+
+    <hr>
+    
+    <div>
+        <p>CSS possui diversas formas de selecionar em quais elementos HTML uma regra será aplicada.</p><span>Seletores:</span>
+        <ol>
+            <li>seletor por elemento;</li>
+            <li>* seletor universal;</li>
+            <li id="itemID">ID identificador único;</li>
+            <li>Classe ou categoria;</li>
+            <li>Seletor por descendente " " <span> A</span>;</li>
+        </ol>
+        <mark>B</mark>
+        <hr>
+        <h2>PRIORIDADE</h2>
+        <h4>Ordem decrescente</h4>
+        <ol>
+            <li>Universal 1</li>
+            <li>Elemento 10</li>
+            <li>Classe 50</li>
+            <li>id 1000</li>
+        </ol>
+    </div>
+</body>
+</html>
