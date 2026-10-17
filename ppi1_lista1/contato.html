@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+    <h1>Formulário de contato</h1>
+    <p>Preencha os campos corretamente.</p>
+    </div>
+    <form action="" method="post">
+        <div>
+            <label for="name">Nome*</label>
+            <input type="text" name="name" id="name" required placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <label for="email">E-mail*</label>
+            <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+        </div>
+
+        <div>
+            <label for="assunto">Assunto (máx. 100 caracteres)</label>
+            <input type="text" name="assunto" id="assunto" maxlength="100" placeholder="Digite o assunto">
+        </div>
+        <div>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estados">
+                <option selected disabled ="">Selecione</option>
+                <option>Acre (AC)</option>
+                <option>Alagoas (AL)</option>
+                <option>Amapá (AP)</option>
+                <option>Amazonas (AM)</option>
+                <option>Bahia (BA)</option>
+                <option>Ceará (CE)</option>
+                <option>Distrito Federal (DF)</option>
+                <option>Espírito Santo (ES)</option>
+                <option>Goiás (GO)</option>
+                <option>Maranhão (MA)</option>
+                <option>Mato Grosso (MT)</option>
+                <option>Mato Grosso do Sul (MS)</option>
+                <option>Minas Gerais (MG)</option>
+                <option>Pará (PA)</option>
+                <option>Paraíba (PB)</option>
+                <option>Paraná (PR)</option>
+                <option>Pernambuco (PE)</option>
+                <option>Piauí(PI)</option>
+                <option>Rio de Janeiro (RJ)</option>
+                <option>Rio Grande do Norte (RN)</option>
+                <option>Rio Grande do Sul (RS)</option>
+                <option>Rondônia (RO)</option>
+                <option>Roraima (RR)</option>
+                <option>Santa Catarina (SC)</option>
+                <option>São Paulo (SP)</option>
+                <option>Sergipe (SE)</option>
+                <option>Tocantins (TO)</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+    <a href="curriculo.html">Acesse o currículo</a>
+</body>
+</html>
