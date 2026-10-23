@@ -1,0 +1,15 @@
+* {
+    border: 1px dotted red;
+    font-size: 25px;
+}
+.box {
+    width: 30px; height: 30px;
+}
+.container {
+    border-color:blue;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

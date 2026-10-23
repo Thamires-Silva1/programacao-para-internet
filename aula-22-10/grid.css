@@ -1,0 +1,30 @@
+* {
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+.main {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "menu secao aside"
+    "rodape rodape rodape"
+    ;
+    grid-template-rows: 25vh 50vh 25vh;
+}
+header {
+    grid-area: header;
+}
+section {
+    grid-area: secao;
+}
+footer {
+    grid-area: rodape;
+}
+aside {
+    grid-area: aside;
+}
+div {
+    grid-area: menu;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <style>
+        * {
+            border: 1px solid black;
+            font-size: 25px;
+        }
+        div {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+        }
+        .container {
+            position: relative;
+        }
+        #a {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            background-color: #FF0000FF;
+            z-index: -1;
+        }
+        #b {
+            position: absolute;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <span>Aula bla</span>
+    <input type="text" placeholder="entre com seus dados bancários">
+    <p> &gt; &lt; <span>Olá mundão &nbsp; &nbsp; &nbsp; <mark>perdido</mark></span></p> 
+    <p>Elementos tipo inline não forçam a quebra de linha.</p>
+
+    <div>
+        A
+    </div><div>
+        B
+    </div>
+    
+    <h3>Posição</h3>
+
+    <p>Para posicionar a div um do lado da outra usa-se o display inline-block</p>
+
+    <p>Display inline ignora a altura e o comprimento que foi escolhido.</p>
+
+    <h3>Espaço entre blocks</h3>
+    <p>Acontece por causa do espaço dentro do código.</p>
+
+    <div class="cointainer"></div>
+    <div id="a">A</div>
+    <div id="b">B</div>
+
+    <p>Em 1977 os monitores tinham sempre resolução 3x4. Então, as posições eram sempre fixas.</p>
+
+    <h3>Positions</h3>
+
+    <p>Para o <strong>static</strong>, position não existe.</p>
+    <p>Para o <strong>relative</strong>, ele é relativo à posição estática dele.</p>
+    <ul>
+        <li>top</li>
+        <li>bottom</li>
+        <li>right</li>
+        <li>left</li>
+    </ul>
+
+    <p>Para o <strong>fixed</strong>, ele é relativo ao viewport(extremos da tela).</p>
+    <ul>
+        <li>top</li>
+        <li>bottom</li>
+        <li>right</li>
+        <li>left</li>
+    </ul>
+
+    <p>Para o <strong>absolute</strong> é relacionado ao primeiro ancestral não estático que ele tiver.</p>
+
+    <h3>Alternância entre camadas</h3>
+    <p>z-index altera as camadas</p>
+
+
+</body>
+</html>
