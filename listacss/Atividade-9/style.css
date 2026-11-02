@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: no-wrap;
+}
+#joana.perfil {
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(46, 46, 48);
+    color: white;
+    width: 200px;
+    height: 100vh;
+    padding-top: 150px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+#experiencia h1 {
+    margin-top: 0;
+}
+#joana h4 {
+    margin-bottom: 0;
+    margin-top: 10;
+}
+#joana p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+img {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#experiencia {
+    display: inline-block;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    right: 0;
+}
+.ano {
+    position: relative;
+    right: 0;
+}

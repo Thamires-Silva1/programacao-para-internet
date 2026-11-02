@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+.box {
+    display: inline-block;
+    width: 25vw;
+    height: 25vh;
+    align-content: center;
+    text-align: center;
+}
+#box1 {
+    background-color: rgb(107, 49, 184);
+}
+#box2 {
+    background-color: rgb(19, 182, 19);
+}
+#box3 {
+    background-color: red;
+}
+#box4 {
+    background-color: yellow;
+}

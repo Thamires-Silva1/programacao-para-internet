@@ -1,0 +1,88 @@
+.bandeira {
+    display: block;
+    height: 60px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 20px;
+}
+#japao.bandeira {
+    background-color: white;
+}
+#japao.bandeira > div.circulo{
+    width: 36px;
+    height: 36px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#alemanha.bandeira > div.preto {
+    background-color: black;
+    height: 20px;
+}
+#alemanha.bandeira >div.vermelho {
+    background-color: #ff0000;
+    height: 20px;
+}
+#alemanha.bandeira > div.amarelo {
+    background-color: #FFCC00;
+    height: 20px;
+}
+#holanda.bandeira > div.vermelho {
+    background-color: #AE1C28;
+    height: 20px;
+}
+#holanda.bandeira > div.branco {
+    background-color: white;
+    height:20px;
+}
+#holanda.bandeira > div.azul {
+    background-color: #21468B;
+    height: 20px;
+}
+#italia.bandeira > div.verde {
+    position: absolute;
+    left: 0;
+    background-color: #008C45;
+    width: 33.33%;
+    height: 100%;
+}
+#italia.bandeira > div.branco {
+    position: absolute;
+    left: 33.33%;
+    background-color: white;
+    width: 33.33%;
+    height: 100%;
+}
+#italia.bandeira > div.vermelho {
+    position: absolute;
+    right: 0;
+    background-color: #CD212A;
+    width: 33.33%;
+    height: 100%;
+}
+#brasil.bandeira {
+    background-color: #009C3B;
+}
+#brasil.bandeira > div.amarelo {
+    position: absolute;
+    background-color: #FFDF00;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    height: 40px;
+    width: 40px;
+}
+#brasil.bandeira > div.azul {
+    background-color: #002776;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
