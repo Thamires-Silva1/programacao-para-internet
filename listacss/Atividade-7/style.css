@@ -1,0 +1,63 @@
+.chat {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 30px auto;
+    height: 400px;
+    overflow: auto;
+}
+
+.mensagem {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 10px 20px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 90%;
+    clear: both;
+    box-sizing: border-box;
+}
+.pedro {
+    float: left;
+    background-color: white;
+}
+.eu {
+    float: right;
+    background-color: lightgreen;
+    text-align: right;
+}
+.foto {
+    float: left;
+    margin-right: 10px;
+}
+.eu .foto {
+    float: right;
+    margin-left: 10px;
+}
+.nome {
+    font-size: 12px;
+    color: gray;
+}
+.hora {
+    color: gray;
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.enviar {
+    border: 1px solid lightgray;
+    padding: 10px;
+    height: 90px;
+    position: relative;
+    clear: both;
+}
+textarea {
+    width: 95%;
+    height: 55px;
+}
+button {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
