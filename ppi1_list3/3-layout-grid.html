@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3 - Grid</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            width: 90vw;
+            height: 90vh;
+            gap: 10px;
+            grid-template-columns: 1fr 1.5fr 1fr;
+            grid-template-rows: repeat(4, 1fr);
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffda85;
+        }
+
+        .item1 {
+            grid-column: 1 / 4;
+        }
+
+        .item2 {
+            background-color: #f43f65;
+        }
+
+        .item3 {
+            grid-column: 2;
+            grid-row: 2 / 4;
+        }
+
+        .item4 {
+            background-color: #f43f65;
+        }
+
+        .item5 {
+            grid-column: 1;
+            grid-row: 3 / 5;
+        }
+
+        .item6 {
+            background-color: #f43f65;
+        }
+
+        .item7 {
+            grid-column: 2 / 4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+        <div class="item item7">7</div>
+    </div>
+
+</body>
+</html>
